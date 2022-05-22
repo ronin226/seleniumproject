@@ -26,5 +26,6 @@ public class MailTest {
                 .shouldHave(sizeGreaterThan(0), Duration.of(10, SECONDS))
                 .last().click();
         $(".thread-subject").shouldHave(text("Добро пожаловать"));
+
     }
 }
